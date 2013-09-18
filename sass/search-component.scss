@@ -1,0 +1,12 @@
+$tableClass	:	ya-search-table;
+#ie7 .#{$tableClass}{
+	input{
+		width: 90%;
+	}
+}
+.btn{
+	min-width:150px;
+}
+.text-info{
+	color:#006DD9;
+}
