@@ -1,12 +1,25 @@
-#ie7 .ya-search-table input {
+#ie7 .ya-search-form input {
   width: 90%;
 }
 
 .btn {
   min-width: 150px;
-  width: auto !important;
+  margin: 10px 0;
 }
 
 .text-info {
   color: #006DD9;
+}
+
+.search-name {
+  font-size: 16px;
+}
+
+.ya-search-results {
+  margin: 20px 0;
+}
+.ya-search-results .ya-search-result {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }

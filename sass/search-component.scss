@@ -1,12 +1,32 @@
-$tableClass	:	ya-search-table;
-#ie7 .#{$tableClass}{
+@import "bootstrap/variables";
+$SearchArea				:	ya-search-form;
+$SearchResultContainer	:	ya-search-results;
+$SearchResult			:	ya-search-result;
+$SearchResultName		:	search-name;
+$basePadding			:	20px;
+$gray					: 	#ccc;
+
+#ie7 .#{$SearchArea}{
 	input{
 		width: 90%;
 	}
 }
 .btn{
 	min-width:150px;
+	margin:10px 0;
 }
 .text-info{
 	color:#006DD9;
+}
+.#{$SearchResultName}{
+	font-size:$baseFontSize + 2px;
+}
+.#{$SearchResultContainer}{
+	margin:$basePadding 0;
+	.#{$SearchResult}{
+		border-bottom:2px solid $gray;
+		padding-bottom: $basePadding/2;
+		margin-bottom:$basePadding;
+		
+	}
 }
